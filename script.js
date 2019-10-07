@@ -19,8 +19,3 @@ clearAllButton.addEventListener("click", function() {
   todoList.innerHTML = "";
   taskNumber = 1
 })
-
-document.addEventListener("click", function() {
-  console.log(this)
-})
-console.log(this)
